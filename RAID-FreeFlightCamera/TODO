@@ -2,7 +2,6 @@ fix "yield control"
 add loc for menu & gui
 options menu
     -> auto hide FFC gui, maybe??
-    -> disable/allow cliets to freecam
 
 improve netcode
     -> client asks if host has FFC
