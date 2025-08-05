@@ -1,0 +1,16 @@
+{
+    "ffc_toggle_keybind" : "Toggle FFC",
+    "ffc_toggle_keybind_desc" : "Enables and disables FreeFlightCam",
+    "ffc_gui_keybind" : "Toggle FFC gui",
+    "ffc_gui_keybind_desc" : "Enables and disables FreeFlightCam gui",
+    "menu_ffc_title" : "RAID-FreeFlightCam",
+    "menu_ffc_hide_outlines" : "Hide outlines",
+    "menu_ffc_hide_outlines_desc" : "Hide outlines/contours when in FreeFlightCam",
+    "menu_ffc_allow_client_freecam" : "Allow clients to FreeFlightCam",
+    "menu_ffc_allow_client_freecam_desc" : "Allows/prohibits clients to FreeFlightCam if they have the mod",
+    "menu_ffc_announce_freecam_possible" : "Announce FreeFlightCam use possible",
+    "menu_ffc_announce_freecam_possible_desc" : "Announce locally if you can use FreeFlightCam as a client",
+    "menu_ffc_gui_text_on_screen_time" : "Auto hide GUI",
+    "menu_ffc_gui_text_on_screen_time_desc" : "Hides FFC gui automatically after x seconds",
+    "ffc_local_announce_freecam_possible" : "$PLAYER has RAID-FreeFlightCam & the lobby is friends-only/private.\nYou can activate FreeFlightCam in this lobby!"
+}

@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<mod
+    name="RAID-FreeFlightCam"
+    description="Add FreeFlightCamera to game"
+    author="shinrax2 and Luffy"
+    contact="https://modworkshop.net/mod/52704"
+    version="0.5"
+    disable_safe_mode="true"
+    min_sblt_version="2.0.0"
+    >
+
+    <updates>
+        <update
+            identifier="52704"
+            provider="modworkshop">
+        </update>
+    </updates>
+
+    <hooks>
+        <post hook_id="lib/setups/gamesetup" script_path="lua/CameraBase.lua" />
+        <post hook_id="lib/setups/menusetup" script_path="lua/CameraBase.lua" />
+        <post hook_id="lib/network/base/networkpeer" script_path="lua/NetworkPeer.lua" />
+        <post hook_id="lib/managers/menu/menucomponentmanager" script_path="lua/MenuComponentManager.lua" />
+    </hooks>
+
+    <localization directory="loc" default="english">
+		<loc file="english.json" language="english" />
+		<loc file="german.json" language="german" />
+	</localization>
+
+    <keybinds>
+        <keybind
+            keybind_id="ffc_toggle"
+            name="ffc_toggle_keybind"
+            description="ffc_toggle_keybind_desc"
+            run_in_menu="false"
+            run_in_game="true"
+            run_in_paused_game="false"
+            localized="true"
+            localized_desc="true"
+        />
+        <keybind
+            keybind_id="ffc_gui"
+            name="ffc_gui_keybind"
+            description="ffc_gui_keybind_desc"
+            run_in_menu="false"
+            run_in_game="true"
+            run_in_paused_game="false"
+            localized="true"
+            localized_desc="true"
+        />
+    </keybinds>
+</mod>

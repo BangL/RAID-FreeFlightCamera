@@ -1,0 +1,6 @@
+{
+    "ffc_toggle_keybind" : "FFC umschalten",
+    "ffc_toggle_keybind_desc" : "Aktiviert und deaktiviert FreeFlightCam",
+    "ffc_gui_keybind" : "FFC Oberfläche umschalten",
+    "ffc_gui_keybind_desc" : "Aktiviert und deaktiviert FreeFlightCam Oberfläche"
+}
