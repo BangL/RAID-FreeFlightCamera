@@ -13,7 +13,7 @@ Hooks:Add("NetworkReceivedData", "FFCSyncReceive", function(sender, id, data)
         FreeFlightCamera.host_has_mod = true
         local peer = managers.network:session():peer(sender)
         local perm = tonumber(managers.network.matchmake.lobby_handler:get_lobby_data("permission"))
-        if FreeFlightCamera.settings.announce_freecam_possible and not managers.network:is_server() and (perm == 2 or perm == 3) then
+        if FreeFlightCamera.settings.announce_freecam_possible and not Network:is_server() and (perm == 2 or perm == 3) then
             managers.chat:feed_system_message(
                 ChatManager.GAME,
                 managers.localization:text("ffc_local_announce_freecam_possible",
